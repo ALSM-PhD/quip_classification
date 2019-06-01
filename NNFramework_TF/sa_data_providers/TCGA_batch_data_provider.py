@@ -1,4 +1,4 @@
-from ..sa_net_data_provider import AbstractDataProvider;
+from sa_net_data_provider import AbstractDataProvider;
 from numpy import random;
 import glob
 

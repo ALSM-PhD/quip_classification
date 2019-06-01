@@ -6,11 +6,11 @@ import os;
 from distutils.util import strtobool;
 import glob;
 
-from ..sa_net_train import CNNTrainer;
-from ..sa_net_arch import AbstractCNNArch;
-from ..sa_net_arch_utilities import CNNArchUtils;
-from ..sa_net_optimizer import OptimizerTypes, CNNOptimizer;
-from ..sa_net_data_provider import AbstractDataProvider;
+from sa_net_train import CNNTrainer;
+from sa_net_arch import AbstractCNNArch;
+from sa_net_arch_utilities import CNNArchUtils;
+from sa_net_optimizer import OptimizerTypes, CNNOptimizer;
+from sa_net_data_provider import AbstractDataProvider;
 import sys 
 import time
 import pickle

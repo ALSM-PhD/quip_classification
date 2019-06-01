@@ -6,10 +6,10 @@ import numpy as np;
 from distutils.util import strtobool;
 import glob;
 
-from ..sa_net_arch_utilities import CNNArchUtils;
+from sa_net_arch_utilities import CNNArchUtils;
 #from sa_net_loss_func import CNNLossFuncHelper, CostFuncTypes;
-from ..sa_net_arch import AbstractCNNArch;
-from ..sa_net_cost_func import AbstractCostFunc;
+from sa_net_arch import AbstractCNNArch;
+from sa_net_cost_func import AbstractCostFunc;
 
 import sys;
 #sys.path.append("/pylon5/ac3uump/shahira/tf-slim_models/models/research/slim")
@@ -21,8 +21,8 @@ import sys;
 #from sa_networks.inception_resnet_v2 import inception_resnet_v2_base
 #from sa_networks.inception_v3 import inception_v3
 #from sa_networks.inception_v3 import inception_v3_arg_scope
-from ..sa_networks.vgg import vgg_16
-from ..sa_networks.vgg import vgg_arg_scope
+from sa_networks.vgg import vgg_16
+from sa_networks.vgg import vgg_arg_scope
 
 class VGG16ClassifierArch(AbstractCNNArch):
     def __init__(self, n_channels, n_classes, model_out_path, model_base_filename, model_restore_filename, cost_func:AbstractCostFunc, kwargs):
